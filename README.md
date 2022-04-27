@@ -17,6 +17,14 @@ A collection of device wrappers for Python 3 in Windows. This library includes s
   - Grayscale devices (`sdk3`)
 * [Ximea](https://www.ximea.com/) scientific cameras
   - Grayscale devices (`ximea`)
+  
+# Installation
+
+```
+python -m pip install Cython
+pip install ./
+```
+
 
 ### DLLs and device drivers paths
 If some device drivers are not installed in their default location then you should edit `dll_paths.py`. Just add the non-standard *absolute* paths to the corresponding dictionary entry. For example, if the Mirao52e folder is in `C:\dir1\dir2\Mirao`, then you should add `'C:\\dir1\\dir2\\Mirao'` to `'mirao52e'`. You may want to add the DLLs manually after installation.
