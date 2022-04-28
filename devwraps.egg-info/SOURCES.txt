@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+devwraps/__init__.py
+devwraps/dll_finder.py
+devwraps/dll_paths.py
+devwraps/test.py
+devwraps/test_get_devices.py
+devwraps/thorcam.c
+devwraps/version.py
+devwraps.egg-info/PKG-INFO
+devwraps.egg-info/SOURCES.txt
+devwraps.egg-info/dependency_links.txt
+devwraps.egg-info/not-zip-safe
+devwraps.egg-info/requires.txt
+devwraps.egg-info/top_level.txt
