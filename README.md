@@ -54,6 +54,10 @@ print(devwraps.get_root_folder)
 ### Testing
 * Open an `Anaconda Prompt` and type `python -m devwraps.test`
 
+### Building the Wheels
+
+`pip wheel .`
+
 ### Known bugs
 * The `asdk`, `sdk3`, and `mirao52e` modules are mostly untested
 * Timeout error handling in `grab_image()` is incomplete
